@@ -1,0 +1,33 @@
+GUI_APPDESCRIP=<html>Perceptrón Multicapa, red neuronal artificial</html> 
+GUI_NAME=Nombre
+GUI_VALUE=Valor
+GUI_OPTIONS=Opciones
+GUI_SHOWCONFIG=Ver Configuración
+GUI_CLOSE=Cerrar
+GUI_HELP=Ayuda
+GUI_ABOUT=Sobre
+GUI_TRAININGSVALUE=Valores de entrenamiento
+GUI_RESULTS=Resultados
+GUI_LEARNINGRATE=Tasa de aprendizaje
+GUI_VARIATIONRATE=Tasa de variación
+GUI_MAXPERIODS=Épocas máximas
+GUI_MAXERROR=Error máximo
+GUI_TRAINING=Entrenar
+GUI_OPEN=Abrir
+GUI_PERIODS=Épocas
+GUI_TESTVALUES=Valores de prueba
+GUI_INPUT=Entrada
+GUI_OUTPUT=Salida
+GUI_ERROR=Error
+GUI_HIDDENLAYERSIZE=Capa oculta
+
+ERROR_NAMEEMPTY=El nombre no puede ser vacío
+ERROR_PATHEMPTY=Ruta de archivo vacía
+ERROR_LOADTRAININGVALUES=Error al cargar valores de entrenamiento
+ERROR_SAVERESULTS=Error al guardar resultados
+ERROR_LOADTESTVALUES=Error al cargar valores de prueba
+ERROR_SAVERESULTSIMAGE=Error al guardar gráfico de resultados
+
+INFO_INITTRAINING=Iniciando entrenamiento
+INFO_FINISHTRAINING=Entrenamiento finalizado
+INFO_SAVERESULTS=Resultados guardados
