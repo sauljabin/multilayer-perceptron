@@ -1,0 +1,10 @@
+#CONFIGURATION
+#Fri Mar 28 11:59:04 VET 2014
+TRANSLATE_PATH=translate/
+LIB_PATH=lib/
+APP_LICENSE=GNU General Public License
+TRANSLATE=es_VE
+OS_ARCH=x86
+APP_NAME=MultilayerPerceptron
+APP_AUTHOR=SAUL PIÑA
+OS=Windows 7
