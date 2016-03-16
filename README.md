@@ -1,23 +1,24 @@
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
+MultilayerPerceptron
+====================
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+Descripción
+-----------
+Perceptrón Multicapa, red neuronal artificial.
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+- Copyright: 2014 Saúl Piña <sauljabin@gmail.com>
+- Repository: https://github.com/sauljabin/jsimpleanimate-2d
+- License: MIT
+- Language: Java
+- IDE: Eclipse
 
-Año:
-	2014
-	
-Autores:
-	SAUL PIÑA - SAULJP07@GMAIL.COM
 
-Descripción: 
-	Perceptrón Multicapa, red neuronal artificial 
-	
+Screenshots
+-----------
+![](/documents/screenshot-1.png)
+
+
+Resultados
+----------
+![](/data/AND_Results.txt.png)
+![](/data/OR_Results.txt.png)
+![](/data/XOR_Results.txt.png)
