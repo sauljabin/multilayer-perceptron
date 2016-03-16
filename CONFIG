@@ -3,7 +3,7 @@
 TRANSLATE_PATH=translate/
 LIB_PATH=lib/
 TRANSLATE=es_VE
-APP_LICENSE=GNU General Public License
+APP_LICENSE=MIT
 APP_NAME=MultilayerPerceptron
 OS_ARCH=amd64
 OS=Linux
