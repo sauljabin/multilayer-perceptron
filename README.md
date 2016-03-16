@@ -6,7 +6,7 @@ Descripción
 Perceptrón Multicapa, red neuronal artificial.
 
 - Copyright: 2014 Saúl Piña <sauljabin@gmail.com>
-- Repository: https://github.com/sauljabin/jsimpleanimate-2d
+- Repository: https://github.com/sauljabin/multilayer-perceptron
 - License: MIT
 - Language: Java
 - IDE: Eclipse
