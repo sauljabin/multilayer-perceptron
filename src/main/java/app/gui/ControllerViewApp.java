@@ -292,6 +292,12 @@ public class ControllerViewApp extends WindowAdapter implements ActionListener, 
 
         ViewGraphic viewG = new ViewGraphic(name);
 
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         for (int i = 0; i < perceptron.getErrors().size(); i++) {
             viewG.addPoint(i, perceptron.getErrors().get(i));
         }
