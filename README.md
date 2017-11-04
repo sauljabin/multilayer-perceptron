@@ -9,16 +9,17 @@ Perceptrón Multicapa, red neuronal artificial.
 - Repository: https://github.com/sauljabin/multilayer-perceptron
 - License: MIT
 - Language: Java
-- IDE: Eclipse
 
 
 Screenshots
 -----------
-![](/documents/screenshot-1.png)
+![](documents/screenshot.png)
 
 
 Resultados
 ----------
-![](/data/AND_Results.txt.png)
-![](/data/OR_Results.txt.png)
-![](/data/XOR_Results.txt.png)
+![](documents/AND_Results.txt.png)
+
+![](documents/OR_Results.txt.png)
+
+![](documents/XOR_Results.txt.png)
