@@ -123,7 +123,7 @@ public class MultilayerPerceptron {
 
     public int training(double[][] trainingValues, double[][] desiredOutput) {
         periods = 0;
-        errors = new LinkedList<Double>();
+        errors = new LinkedList<>();
         double error = 0;
         do {
 

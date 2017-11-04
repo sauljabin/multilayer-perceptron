@@ -34,6 +34,10 @@ public class ControllerViewApp extends WindowAdapter implements ActionListener, 
     public ControllerViewApp() {
         viewApp = new ViewApp();
         viewApp.setController(this);
+        viewApp.getPathResults().setText("documents/AND_Results.txt");
+        viewApp.getPathFileTraining().setText("documents/AND_TrainingValues.txt");
+        viewApp.getPathTestValues().setText("documents/AND_TestValues.txt");
+        viewApp.getTxtName().setText("AND");
         Log.setLogTextArea(viewApp.getTarConsole());
     }
 
@@ -245,6 +249,7 @@ public class ControllerViewApp extends WindowAdapter implements ActionListener, 
         }
 
         Log.info(ControllerViewApp.class, Translate.get("INFO_INITTRAINING"));
+
         perceptron = new MultilayerPerceptron(trainingValues[0].length, hiddenLayerSize, desiredOutput[0].length, learningRate, variationRate, maxPeriods, maxError);
         perceptron.training(trainingValues, desiredOutput);
         Log.info(ControllerViewApp.class, Translate.get("INFO_FINISHTRAINING"));

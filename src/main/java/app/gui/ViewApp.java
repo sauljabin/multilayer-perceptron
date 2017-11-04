@@ -14,7 +14,6 @@ import app.Translate;
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
-import javax.swing.text.DefaultCaret;
 import java.awt.*;
 import java.util.Vector;
 
@@ -152,8 +151,6 @@ public class ViewApp extends JFrame {
         JScrollPane scrollPanelConsole = new JScrollPane();
         pnlSouth.add(scrollPanelConsole, "width 100%, height 100");
         tarConsole = new JTextArea();
-        DefaultCaret caret = (DefaultCaret) tarConsole.getCaret();
-        caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
         scrollPanelConsole.setViewportView(tarConsole);
 
         menuItems.add(menuItemShowConfig);
