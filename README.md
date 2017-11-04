@@ -10,6 +10,14 @@ Perceptrón Multicapa, red neuronal artificial.
 - License: MIT
 - Language: Java
 
+Comandos
+--------
+
+```
+make run
+
+make clean
+```
 
 Screenshots
 -----------
