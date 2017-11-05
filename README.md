@@ -21,13 +21,13 @@ make clean
 
 Screenshots
 -----------
-![](documents/screenshot.png)
+![](documents/screenshots/screenshot-1.png)
 
 
 Resultados
 ----------
-![](documents/AND_Results.txt.png)
+![](documents/data/and/AND_Results.txt.png)
 
-![](documents/OR_Results.txt.png)
+![](documents/data/or/OR_Results.txt.png)
 
-![](documents/XOR_Results.txt.png)
+![](documents/data/xor/XOR_Results.txt.png)

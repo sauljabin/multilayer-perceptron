@@ -34,9 +34,9 @@ public class ControllerViewApp extends WindowAdapter implements ActionListener, 
     public ControllerViewApp() {
         viewApp = new ViewApp();
         viewApp.setController(this);
-        viewApp.getPathResults().setText("documents/AND_Results.txt");
-        viewApp.getPathFileTraining().setText("documents/AND_TrainingValues.txt");
-        viewApp.getPathTestValues().setText("documents/AND_TestValues.txt");
+        viewApp.getPathResults().setText("documents/data/and/AND_Results.txt");
+        viewApp.getPathFileTraining().setText("documents/data/and/AND_TrainingValues.txt");
+        viewApp.getPathTestValues().setText("documents/data/and/AND_TestValues.txt");
         viewApp.getTxtName().setText("AND");
         Log.setLogTextArea(viewApp.getTarConsole());
     }
